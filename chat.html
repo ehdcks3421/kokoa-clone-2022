@@ -41,11 +41,43 @@
     </header>
     
     <main class="main-screen main-chat">
-        <div class="chat_timestamp">
-            Tuesday, June 30, 2020
+        <div class="chat__timestamp">
+           <span> Tuesday, June 30, 2020</span>
+        </div>
+
+        <div class="message-row">
+          <img src="https://avatars.githubusercontent.com/u/58020759?s=400&u=11d807abbeb5b9337d9b0b397dadd4433c0999f6&v=4" />
+          <div class="message-row__content">
+            <span class="message__author">Lee DongChan</span>
+            <div class="message__info">
+              <span class="message__bubble">Hi!</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="message-row message-row--own">
+          <div class="message-row__content">
+            <div class="message__info">
+              <span class="message__bubble">Hi! Nice to Meet you!</span>
+              <span class="message__time">21:27</span>
+            </div>
+          </div>
         </div>
     </main>
 
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message...">
+        <i class="far fa-smile-wink"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
     
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
